@@ -7,6 +7,8 @@
     "androidMarketing": "export ENVFILE=.env.marketing && react-native run-android --variant=marketingDebug --appIdSuffix marketing",
     "androidSales": "export ENVFILE=.env.sales && react-native run-android --variant=salesDebug --appIdSuffix sales",
     "ios": "react-native run-ios",
+    "iosMarketing": "react-native run-ios --scheme RNMultipleAppsMarketing",
+    "iosSales": "react-native run-ios --scheme RNMultipleAppsSales",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."

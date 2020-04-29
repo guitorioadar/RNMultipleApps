@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNMultipleAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNMultipleAppsTests.m */; };
+		046B68F4245A11EA00025BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		046B68F5245A11EA00025BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		046B68F7245A11EA00025BF8 /* libPods-RNMultipleApps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649855D9C89730D022473763 /* libPods-RNMultipleApps.a */; };
+		046B68F9245A11EA00025BF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		046B68FA245A11EA00025BF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		046B6905245A125A00025BF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		046B6906245A125A00025BF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		046B6908245A125A00025BF8 /* libPods-RNMultipleApps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649855D9C89730D022473763 /* libPods-RNMultipleApps.a */; };
+		046B690A245A125A00025BF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		046B690B245A125A00025BF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -45,6 +55,10 @@
 		00E356EE1AD99517003FC87E /* RNMultipleAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNMultipleAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNMultipleAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNMultipleAppsTests.m; sourceTree = "<group>"; };
+		046B68FF245A11EA00025BF8 /* RNMultipleAppsMarketing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNMultipleAppsMarketing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B6900245A11EA00025BF8 /* RNMultipleAppsMarketing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RNMultipleAppsMarketing-Info.plist"; path = "/Users/mac/ReactNative/RNMultipleApps/ios/RNMultipleAppsMarketing-Info.plist"; sourceTree = "<absolute>"; };
+		046B6910245A125A00025BF8 /* RNMultipleAppsSales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNMultipleAppsSales.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B6911245A125A00025BF8 /* RNMultipleAppsSales-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RNMultipleAppsSales-Info.plist"; path = "/Users/mac/ReactNative/RNMultipleApps/ios/RNMultipleAppsSales-Info.plist"; sourceTree = "<absolute>"; };
 		13B07F961A680F5B00A75B9A /* RNMultipleApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNMultipleApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNMultipleApps/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNMultipleApps/AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +89,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD938E1895F8EFDD0F69D3B9 /* libPods-RNMultipleApps-RNMultipleAppsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B68F6245A11EA00025BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B68F7245A11EA00025BF8 /* libPods-RNMultipleApps.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B6907245A125A00025BF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B6908245A125A00025BF8 /* libPods-RNMultipleApps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +162,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				046B6900245A11EA00025BF8 /* RNMultipleAppsMarketing-Info.plist */,
+				046B6911245A125A00025BF8 /* RNMultipleAppsSales-Info.plist */,
 			);
 			name = RNMultipleApps;
 			sourceTree = "<group>";
@@ -161,7 +193,6 @@
 				EEA78792DE427B5F6C112F56 /* Pods-RNMultipleApps-tvOSTests.debug.xcconfig */,
 				80A27C56C98EC817F5CA9E05 /* Pods-RNMultipleApps-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -194,6 +225,8 @@
 				00E356EE1AD99517003FC87E /* RNMultipleAppsTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* RNMultipleApps-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* RNMultipleApps-tvOSTests.xctest */,
+				046B68FF245A11EA00025BF8 /* RNMultipleAppsMarketing.app */,
+				046B6910245A125A00025BF8 /* RNMultipleAppsSales.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -219,6 +252,46 @@
 			productName = RNMultipleAppsTests;
 			productReference = 00E356EE1AD99517003FC87E /* RNMultipleAppsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046B68F0245A11EA00025BF8 /* RNMultipleAppsMarketing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B68FC245A11EA00025BF8 /* Build configuration list for PBXNativeTarget "RNMultipleAppsMarketing" */;
+			buildPhases = (
+				046B68F1245A11EA00025BF8 /* [CP] Check Pods Manifest.lock */,
+				046B68F2245A11EA00025BF8 /* Start Packager */,
+				046B68F3245A11EA00025BF8 /* Sources */,
+				046B68F6245A11EA00025BF8 /* Frameworks */,
+				046B68F8245A11EA00025BF8 /* Resources */,
+				046B68FB245A11EA00025BF8 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNMultipleAppsMarketing;
+			productName = RNMultipleApps;
+			productReference = 046B68FF245A11EA00025BF8 /* RNMultipleAppsMarketing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046B6901245A125A00025BF8 /* RNMultipleAppsSales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B690D245A125A00025BF8 /* Build configuration list for PBXNativeTarget "RNMultipleAppsSales" */;
+			buildPhases = (
+				046B6902245A125A00025BF8 /* [CP] Check Pods Manifest.lock */,
+				046B6903245A125A00025BF8 /* Start Packager */,
+				046B6904245A125A00025BF8 /* Sources */,
+				046B6907245A125A00025BF8 /* Frameworks */,
+				046B6909245A125A00025BF8 /* Resources */,
+				046B690C245A125A00025BF8 /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNMultipleAppsSales;
+			productName = RNMultipleApps;
+			productReference = 046B6910245A125A00025BF8 /* RNMultipleAppsSales.app */;
+			productType = "com.apple.product-type.application";
 		};
 		13B07F861A680F5B00A75B9A /* RNMultipleApps */ = {
 			isa = PBXNativeTarget;
@@ -322,6 +395,8 @@
 				00E356ED1AD99517003FC87E /* RNMultipleAppsTests */,
 				2D02E47A1E0B4A5D006451C7 /* RNMultipleApps-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* RNMultipleApps-tvOSTests */,
+				046B68F0245A11EA00025BF8 /* RNMultipleAppsMarketing */,
+				046B6901245A125A00025BF8 /* RNMultipleAppsSales */,
 			);
 		};
 /* End PBXProject section */
@@ -331,6 +406,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B68F8245A11EA00025BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B68F9245A11EA00025BF8 /* Images.xcassets in Resources */,
+				046B68FA245A11EA00025BF8 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B6909245A125A00025BF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B690A245A125A00025BF8 /* Images.xcassets in Resources */,
+				046B690B245A125A00025BF8 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +455,116 @@
 
 /* Begin PBXShellScriptBuildPhase section */
 		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		046B68F1245A11EA00025BF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNMultipleApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		046B68F2245A11EA00025BF8 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		046B68FB245A11EA00025BF8 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		046B6902245A125A00025BF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNMultipleApps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		046B6903245A125A00025BF8 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		046B690C245A125A00025BF8 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -526,6 +729,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		046B68F3245A11EA00025BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B68F4245A11EA00025BF8 /* AppDelegate.m in Sources */,
+				046B68F5245A11EA00025BF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B6904245A125A00025BF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B6905245A125A00025BF8 /* AppDelegate.m in Sources */,
+				046B6906245A125A00025BF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -623,6 +844,114 @@
 			};
 			name = Release;
 		};
+		046B68FD245A11EA00025BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319D3E05D5DCB12F57A598C4 /* Pods-RNMultipleApps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = "RNMultipleAppsMarketing-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnmultipleApps.marketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		046B68FE245A11EA00025BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19450CAB63769788023DB22 /* Pods-RNMultipleApps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "RNMultipleAppsMarketing-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnmultipleApps.marketing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		046B690E245A125A00025BF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319D3E05D5DCB12F57A598C4 /* Pods-RNMultipleApps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = "RNMultipleAppsSales-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnmultipleApps.sales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		046B690F245A125A00025BF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19450CAB63769788023DB22 /* Pods-RNMultipleApps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "RNMultipleAppsSales-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnmultipleApps.sales;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 319D3E05D5DCB12F57A598C4 /* Pods-RNMultipleApps.debug.xcconfig */;
@@ -636,13 +965,16 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = RNMultipleApps/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnmultipleapps;
 				PRODUCT_NAME = RNMultipleApps;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -658,13 +990,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = RNMultipleApps/Info.plist;
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = NO;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = org.rnmultipleapps;
 				PRODUCT_NAME = RNMultipleApps;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -902,6 +1237,24 @@
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
 				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B68FC245A11EA00025BF8 /* Build configuration list for PBXNativeTarget "RNMultipleAppsMarketing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B68FD245A11EA00025BF8 /* Debug */,
+				046B68FE245A11EA00025BF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B690D245A125A00025BF8 /* Build configuration list for PBXNativeTarget "RNMultipleAppsSales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B690E245A125A00025BF8 /* Debug */,
+				046B690F245A125A00025BF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
